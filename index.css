@@ -1,0 +1,23 @@
+#navbarSupportedContent {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+#navbarSupportedContent ul{
+    flex-wrap: wrap;
+}  
+
+.icon-spin-hover {
+    font-size: 25px;
+    color: #ffffff;
+    transition: transform 0.5s ease-in-out;
+}
+
+.icon-spin-hover:hover {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(30deg); }
+}
